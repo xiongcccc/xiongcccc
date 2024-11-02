@@ -3,7 +3,7 @@
 ### 🧑‍💻 About Me
 PostgreSQL expert, open-source enthusiast, and software engineer.
 
-- 🛠 Founder of [postgres-howto in chinese](https://xiongcccc.github.io/postgres-howtos/#/)
+- 🛠 Founder of [postgres-howto in chinese](https://xiongcccc.github.io/postgres-howtos/#/) project
 - 📝 Translator of [PostgreSQL 14 internals](https://postgrespro.com/community/books/internals)
 
 ### 📝 Connect with Me
