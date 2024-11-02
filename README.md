@@ -1,16 +1,14 @@
-## Hi there 👋
+## Hi 👋, I'm xiongcc.
 
-<!--
-**xiongcccc/xiongcccc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🧑‍💻 About Me
+PostgreSQL expert, open-source enthusiast, and software engineer.
 
-Here are some ideas to get you started:
+- 🛠 Founder of [postgres-howto in chinese](https://xiongcccc.github.io/postgres-howtos/#/)
+- 📝 Translator of [PostgreSQL 14 internals](https://postgrespro.com/community/books/internals)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📝 Connect with Me
+[GitHub](https://github.com/xiongcccc) | 微信公众号: PostgreSQL学徒
+
+### 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xiongcccc&show_icons=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xiongcccc&layout=compact)
