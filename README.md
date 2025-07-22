@@ -5,8 +5,8 @@ PostgreSQL expert, open-source enthusiast, and software engineer. Personal homep
 
 - 🛠 Founder of [PostgreSQL-howto in chinese](https://postgres-howto.cn/#/) project
 - 📚 Translator of [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
-- 📝 《PostgreSQL 内参：深入解析运行原理》：[https://postgres-internals.cn/](https://postgres-internals.cn/)
-- 🧑‍💻 Personal Homepage：https://xiongcc.cn
+- 📝 PostgreSQL 14 Internals in chinese: [https://postgres-internals.cn/](https://postgres-internals.cn/)
+- 🧑‍💻 Personal Homepage: https://xiongcc.cn
 
 Feel free to Connect with Me：
 
