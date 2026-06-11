@@ -1,7 +1,7 @@
 ## Hi 👋, I'm xiongcc.
 
 ### About Me
-PostgreSQL expert, open-source enthusiast, and software engineer. Personal homepage: https://xiongcc.cn
+PostgreSQL and Greenplum expert, open-source enthusiast, and software engineer. Personal homepage: https://xiongcc.cn
 
 - 🛠 Founder of [PostgreSQL-howto in chinese](https://postgres-howto.cn/#/) project
 - 📚 Translator of [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
