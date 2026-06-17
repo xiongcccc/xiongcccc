@@ -15,5 +15,4 @@ Feel free to Connect with Me：
 - 📨 xiongcc\_1994@126.com / xiongcc19950101@gmail.com
 
 ### PostgreSQL DBA Daily
-![image](https://github.com/user-attachments/assets/188aca50-01bc-4f23-85df-54c3422dafaa)
-
+<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/40f8ce26-8eb8-45e1-afe9-fc95f6c27fc1" />
