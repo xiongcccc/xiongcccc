@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="title description">
+  <title id="title">PostgreSQL elephant</title>
+  <desc id="description">A small blue elephant that gently floats, blinks, and moves its trunk and ear.</desc>
+
+  <ellipse cx="58" cy="103" rx="34" ry="5" fill="#0d2233" opacity=".15">
+    <animate attributeName="rx" values="34;28;34" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.08;.15" dur="3.2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 1;0 -3;0 1" dur="3.2s" repeatCount="indefinite"/>
+
+    <path d="M25 56c-8-9-12-2-8 5" fill="none" stroke="#183b56" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 61c-3 1-5 0-6-2" fill="none" stroke="#477fa6" stroke-width="3" stroke-linecap="round"/>
+
+    <ellipse cx="52" cy="68" rx="35" ry="27" fill="#336791" stroke="#183b56" stroke-width="2.7"/>
+    <path d="M28 58c7-10 17-14 30-14" fill="none" stroke="#75a4c3" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+
+    <path d="M31 85v16M55 91v12" stroke="#183b56" stroke-width="13" stroke-linecap="round"/>
+    <path d="M31 84v16M55 90v12" stroke="#336791" stroke-width="8" stroke-linecap="round"/>
+
+    <circle cx="80" cy="55" r="24" fill="#3f769d" stroke="#183b56" stroke-width="2.7"/>
+
+    <g transform-origin="69px 55px">
+      <animateTransform attributeName="transform" type="rotate" values="0 69 55;-7 69 55;0 69 55" dur="2.8s" repeatCount="indefinite"/>
+      <ellipse cx="68" cy="57" rx="15" ry="19" fill="#6d9fbd" stroke="#183b56" stroke-width="2.2"/>
+      <path d="M62 47c6-5 12-4 16 0" fill="none" stroke="#9bbdd1" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+    </g>
+
+    <path d="M93 59c13 1 20 9 19 21-1 11-8 21-18 21-6 0-10-4-9-9 1-4 5-6 8-3 2 2 4 2 6 0 4-5 5-15-6-18z" fill="#477fa6" stroke="#183b56" stroke-width="2.7" stroke-linejoin="round">
+      <animate attributeName="d" values="M93 59c13 1 20 9 19 21-1 11-8 21-18 21-6 0-10-4-9-9 1-4 5-6 8-3 2 2 4 2 6 0 4-5 5-15-6-18z;M93 59c13 1 19 9 18 21-1 10-6 18-15 20-6 1-11-2-11-7 0-4 4-7 8-4 3 2 5 1 7-1 4-6 4-15-7-17z;M93 59c13 1 20 9 19 21-1 11-8 21-18 21-6 0-10-4-9-9 1-4 5-6 8-3 2 2 4 2 6 0 4-5 5-15-6-18z" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+
+    <ellipse cx="87" cy="49" rx="3.1" ry="3.8" fill="#f4f1e8">
+      <animate attributeName="ry" values="3.8;3.8;.35;3.8;3.8" keyTimes="0;.44;.48;.52;1" dur="4.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="88" cy="50" r="1.4" fill="#102c40"/>
+    <path d="M94 67 99 75" stroke="#f0e6cc" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#6f9fbb">
+    <circle cx="108" cy="35" r="2" opacity=".2">
+      <animate attributeName="cy" values="38;27;38" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.65;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="113" cy="47" r="1.4" opacity=".1">
+      <animate attributeName="cy" values="49;38;49" dur="4.1s" begin=".8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;0" dur="4.1s" begin=".8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

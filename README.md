@@ -13,35 +13,41 @@
   <samp>
     <a href="https://xiongcc.cn">home</a> ·
     <a href="https://xiongcc.cn">writing</a> ·
-    <a href="https://github.com/xiongcccc?tab=repositories">projects</a> ·
     <a href="https://postgres-internals.cn/">book</a> ·
     <a href="mailto:xiongcc_1994@126.com">contact</a>
   </samp>
 </p>
 
-I work on PostgreSQL — understanding its internals, building practical tools, and turning field experience into durable knowledge.
+<img src="./assets/pg-elephant.svg" align="right" width="88" alt="A gently animated PostgreSQL elephant">
 
-I'm a PostgreSQL and Greenplum engineer, a PostgreSQL ACE / MVP, the Chinese translator of *PostgreSQL 14 Internals*, and an active contributor to the Chinese PostgreSQL community.
+## What I work on
 
-### Currently
+**Internals** — understanding how PostgreSQL works beneath the surface.
 
-Maintaining **PostgreSQL DBA Daily**, writing about database internals and production practice, and building small tools for people who operate PostgreSQL.
+**Operations** — turning production experience into practical tools and repeatable methods.
 
-### Selected work
+**Knowledge** — making complex database ideas easier to learn, use, and preserve.
 
-**[PostgreSQL 14 Internals — Chinese Translation](https://postgres-internals.cn/)** — Making PostgreSQL's internal mechanisms easier to understand and worth returning to over time.
+<sub>PostgreSQL & Greenplum engineer · PostgreSQL ACE / MVP · Technical writer · Open-source maintainer</sub>
 
-**[PostgreSQL DBA Daily](https://xiongcc.cn)** — An evolving field guide to inspection, troubleshooting, performance tuning, and production operations.
+## Selected work
 
-**[pg-mastery](https://github.com/xiongcccc/pg-mastery)** — A curated knowledge base for PostgreSQL internals, DBA practice, and production cases.
+### [PostgreSQL 14 Internals](https://postgres-internals.cn/)
 
-**[pgcheck](https://github.com/xiongcccc/pgcheck)** — A lightweight PostgreSQL health-check CLI for DBAs, SREs, and database engineers.
+Making PostgreSQL's internal mechanisms easier to understand and worth returning to over time.
 
-**[postgres-howto](https://github.com/xiongcccc/postgres-howto)** — Practical PostgreSQL how-tos in Chinese, maintained as reusable field knowledge.
+### PostgreSQL DBA Daily
 
-**[pg-slide-harvester](https://github.com/xiongcccc/pg-slide-harvester)** — A small tool for collecting PostgreSQL conference slides into a searchable local archive.
+An evolving field guide to inspection, troubleshooting, performance tuning, and production operations.
 
-### Latest writing
+#### Open-source tools
+
+- **[pg-mastery](https://github.com/xiongcccc/pg-mastery)** — A curated knowledge base for PostgreSQL internals, DBA practice, and production cases.
+- **[pgcheck](https://github.com/xiongcccc/pgcheck)** — A lightweight PostgreSQL health-check CLI for DBAs, SREs, and database engineers.
+- **[postgres-howto](https://github.com/xiongcccc/postgres-howto)** — Practical PostgreSQL how-tos maintained as reusable field knowledge.
+- **[pg-slide-harvester](https://github.com/xiongcccc/pg-slide-harvester)** — A small tool for collecting PostgreSQL conference slides into a searchable local archive.
+
+## Latest writing
 
 <!-- BLOG-POST-LIST:START -->
 - 2026-09-07 · [PostgreSQL 的 2026 与下一个十年](https://xiongcc.cn/2026/09/07/PostgreSQL%20%E7%9A%84%202026%20%E4%B8%8E%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8D%81%E5%B9%B4/)
