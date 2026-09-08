@@ -36,7 +36,7 @@ def fetch_homepage() -> str:
         return response.read().decode("utf-8")
 
 
-def latest_posts(page: str, limit: int = 3) -> list[str]:
+def latest_posts(page: str, limit: int = 5) -> list[str]:
     posts: list[str] = []
     seen: set[str] = set()
 
