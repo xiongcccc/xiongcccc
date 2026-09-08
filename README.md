@@ -1,57 +1,87 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="xiongcc — PostgreSQL, database internals and engineering practice">
+</p>
 
-# Hi 👋, I'm xiongcc.
+<p align="center">
+  <a href="https://xiongcc.cn">Website</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://xiongcc.cn">Writing</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://postgres-internals.cn/">Book</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:xiongcc_1994@126.com">Email</a>
+</p>
 
-**PostgreSQL · Database Internals · AI Infrastructure**
+<p align="center">
+  <sub>POSTGRESQL ACE / MVP&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;100+ ARTICLES&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;OPEN SOURCE MAINTAINER</sub>
+</p>
 
-I'm a PostgreSQL and Greenplum engineer, open-source enthusiast, and technical writer.<br>
-I focus on database internals, production practices, and data infrastructure in the AI era.
+## About
 
-[![Website](https://img.shields.io/badge/个人主页-xiongcc.cn-336791?style=flat-square&logo=postgresql&logoColor=white)](https://xiongcc.cn)
-[![Blog](https://img.shields.io/badge/技术文章-PostgreSQL学徒-0A66C2?style=flat-square)](https://xiongcc.cn)
-[![Email](https://img.shields.io/badge/Email-xiongcc__1994%40126.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:xiongcc_1994@126.com)
+I'm a PostgreSQL and Greenplum engineer, open-source enthusiast, and technical writer. I focus on database internals, production practices, and data infrastructure in the AI era.
 
-</div>
+My work is centered on one thing: turning complex database mechanisms and field experience into knowledge, tools, and projects that others can actually use.
 
-```sql
-xiongcc=# EXPLAIN (ANALYZE, BUFFERS) SELECT * FROM pg_world;
-Index Scan using experience_idx
-  Focus: PostgreSQL internals, DBA practice, AI infrastructure
-  Output: open source, books, tools, articles, talks
-```
+## Selected Work
 
-## About Me
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>BOOK · DATABASE INTERNALS</sub>
+      <h3>《PostgreSQL 内参》</h3>
+      <p>《PostgreSQL 14 Internals》中文版。系统梳理 PostgreSQL 的内部工作机制，沉淀为可长期阅读的中文资料。</p>
+      <a href="https://postgres-internals.cn/">Read the book →</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>KNOWLEDGE · OPEN SOURCE</sub>
+      <h3>PostgreSQL 中文 HowTo</h3>
+      <p>围绕真实使用场景整理的中文实践手册，让分散的 PostgreSQL 经验变得可查询、可复用。</p>
+      <a href="https://postgres-howto.cn/">Explore the handbook →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>DBA · FIELD NOTES</sub>
+      <h3>PostgreSQL DBA Daily 5.0</h3>
+      <p>把日常巡检、故障排查、性能优化和生产实践，整理成一张持续演进的 DBA 知识图谱。</p>
+      <a href="https://xiongcc.cn/about/">Learn more →</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub>COURSE · ENGINEERING</sub>
+      <h3>PostgreSQL 入门到进阶实战</h3>
+      <p>面向 AI 时代数据基础设施的系统课程，从基础概念走向真实工程实践。</p>
+      <a href="https://coding.imooc.com/class/1009.html">View the course →</a>
+    </td>
+  </tr>
+</table>
 
-- PostgreSQL ACE / MVP and an active contributor to the Chinese PostgreSQL community
-- Chinese translator of *PostgreSQL 14 Internals*
-- Author of PostgreSQL DBA Daily
-- Founder and maintainer of PostgreSQL-focused open-source projects, including pg-mastery, pgcheck, and postgres-howto
-- Writer behind PostgreSQL 学徒, with 100+ technical articles
+## Open Source
 
-## 代表作品
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xiongcccc/pg-mastery">pg-mastery</a></h3>
+      <p>PostgreSQL internals, DBA practice, performance tuning, troubleshooting, and real-world production cases.</p>
+      <sub>CURATED KNOWLEDGE BASE</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xiongcccc/pgcheck">pgcheck</a></h3>
+      <p>A lightweight PostgreSQL health-check CLI built for DBAs, SREs, and database engineers.</p>
+      <sub>DATABASE HEALTH CHECK</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xiongcccc/postgres-howto">postgres-howto</a></h3>
+      <p>Practical PostgreSQL how-tos in Chinese, collected and maintained as reusable field knowledge.</p>
+      <sub>CHINESE HOW-TO LIBRARY</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/xiongcccc/pg-slide-harvester">pg-slide-harvester</a></h3>
+      <p>A lightweight tool for collecting PostgreSQL conference slides into a searchable local archive.</p>
+      <sub>CONFERENCE ARCHIVE TOOL</sub>
+    </td>
+  </tr>
+</table>
 
-- 📖 **[《PostgreSQL 内参：深入解析运行原理》](https://postgres-internals.cn/)**<br>
-  《PostgreSQL 14 Internals》中文版，系统梳理 PostgreSQL 的内部工作机制。
-
-- 🧰 **[PostgreSQL 中文 HowTo](https://postgres-howto.cn/)**<br>
-  面向真实使用场景的 PostgreSQL 中文实践手册。
-
-- 🗺️ **PostgreSQL DBA Daily 5.0**<br>
-  覆盖日常巡检、故障排查、性能优化与生产实践的知识图谱。
-
-- 🎓 **[PostgreSQL 入门到进阶实战](https://coding.imooc.com/class/1009.html)**<br>
-  面向 AI 时代数据基础设施的 PostgreSQL 系统课程。
-
-## 开源项目
-
-| 项目 | 我想解决的问题 |
-| --- | --- |
-| **[pg-mastery](https://github.com/xiongcccc/pg-mastery)** ![Stars](https://img.shields.io/github/stars/xiongcccc/pg-mastery?style=flat-square&label=stars) | 把内核原理、DBA 实践、性能调优和生产案例整理成可检索的 PostgreSQL 知识库 |
-| **[pgcheck](https://github.com/xiongcccc/pgcheck)** ![Stars](https://img.shields.io/github/stars/xiongcccc/pgcheck?style=flat-square&label=stars) | 为 DBA 与 SRE 提供轻量、直接的 PostgreSQL 健康检查工具 |
-| **[postgres-howto](https://github.com/xiongcccc/postgres-howto)** ![Stars](https://img.shields.io/github/stars/xiongcccc/postgres-howto?style=flat-square&label=stars) | 持续沉淀 PostgreSQL 中文 HowTo 与可复用实践 |
-| **[pg-slide-harvester](https://github.com/xiongcccc/pg-slide-harvester)** ![Stars](https://img.shields.io/github/stars/xiongcccc/pg-slide-harvester?style=flat-square&label=stars) | 自动收集 PostgreSQL 大会演讲资料，建立本地可搜索的技术档案 |
-
-## 最近写了
+## Latest Writing
 
 <!-- BLOG-POST-LIST:START -->
 - 2026-09-07 · [PostgreSQL 的 2026 与下一个十年](https://xiongcc.cn/2026/09/07/PostgreSQL%20%E7%9A%84%202026%20%E4%B8%8E%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8D%81%E5%B9%B4/)
@@ -61,12 +91,13 @@ Index Scan using experience_idx
 - 2026-07-06 · [从数据库到后端底座：HigoBase 想讲一个什么新故事？](https://xiongcc.cn/2026/07/06/%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%B0%E5%90%8E%E7%AB%AF%E5%BA%95%E5%BA%A7%EF%BC%9AHigoBase%20%E6%83%B3%E8%AE%B2%E4%B8%80%E4%B8%AA%E4%BB%80%E4%B9%88%E6%96%B0%E6%95%85%E4%BA%8B%EF%BC%9F/)
 <!-- BLOG-POST-LIST:END -->
 
-> 这个列表由 GitHub Actions 每天从 [xiongcc.cn](https://xiongcc.cn) 自动更新。
+<p align="right"><sub>Updated daily from <a href="https://xiongcc.cn">xiongcc.cn</a></sub></p>
 
-## 找到我
+---
 
-- 个人主页：[xiongcc.cn](https://xiongcc.cn)
-- 微信公众号：**PostgreSQL 学徒**
-- Email：[xiongcc_1994@126.com](mailto:xiongcc_1994@126.com) / [xiongcc19950101@gmail.com](mailto:xiongcc19950101@gmail.com)
-
-如果你也在研究 PostgreSQL、Greenplum 或数据库内核，欢迎交流。
+<p align="center">
+  <i>If you are working on PostgreSQL, Greenplum, or database internals, let's talk.</i><br><br>
+  <a href="https://xiongcc.cn">xiongcc.cn</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  PostgreSQL 学徒&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:xiongcc_1994@126.com">xiongcc_1994@126.com</a>
+</p>
