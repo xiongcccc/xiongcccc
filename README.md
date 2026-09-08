@@ -12,6 +12,10 @@
   <a href="mailto:xiongcc_1994@126.com">Email</a>
 </p>
 
+<p align="center">
+  <img src="./assets/profile-atmosphere.png" width="92%" alt="Abstract database pages and query paths in a quiet dark-blue atmosphere">
+</p>
+
 ### About
 
 I'm a PostgreSQL and Greenplum engineer. Over the years, my work has moved between database internals, production troubleshooting, open-source tools, and technical writing.
