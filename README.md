@@ -51,11 +51,11 @@ I focus on database internals, production practices, and data infrastructure in 
 ## ✍️ 最近写了
 
 <!-- BLOG-POST-LIST:START -->
-- 2026-09-07 · [PostgreSQL 的 2026 与下一个十年](https://xiongcc.cn/2026/09/07/PostgreSQL%20%E7%9A%84%202026%20%E4%B8%8E%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8D%81%E5%B9%B4/)
-- 2026-08-14 · [当答案不再稀缺，DBA 真正稀缺的是什么？](https://xiongcc.cn/2026/08/14/%E5%BD%93%E7%AD%94%E6%A1%88%E4%B8%8D%E5%86%8D%E7%A8%80%E7%BC%BA%EF%BC%8CDBA%20%E7%9C%9F%E6%AD%A3%E7%A8%80%E7%BC%BA%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/)
-- 2026-07-23 · [AI 时代首选数据库：PostgreSQL 入门到进阶实战](https://xiongcc.cn/2026/07/23/AI%20%E6%97%B6%E4%BB%A3%E9%A6%96%E9%80%89%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%9APostgreSQL%20%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E5%AE%9E%E6%88%98/)
-- 2026-07-23 · [pg-slide-harvester：自动收集 PG 大会演讲资料](https://xiongcc.cn/2026/07/23/pg-slide-harvester%EF%BC%9A%E8%87%AA%E5%8A%A8%E6%94%B6%E9%9B%86%20PG%20%E5%A4%A7%E4%BC%9A%E6%BC%94%E8%AE%B2%E8%B5%84%E6%96%99/)
-- 2026-07-06 · [从数据库到后端底座：HigoBase 想讲一个什么新故事？](https://xiongcc.cn/2026/07/06/%E4%BB%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%88%B0%E5%90%8E%E7%AB%AF%E5%BA%95%E5%BA%A7%EF%BC%9AHigoBase%20%E6%83%B3%E8%AE%B2%E4%B8%80%E4%B8%AA%E4%BB%80%E4%B9%88%E6%96%B0%E6%95%85%E4%BA%8B%EF%BC%9F/)
+- 2026-09-07 · [PostgreSQL 的 2026 与下一个十年](https://xiongcc.cn/2026/09/07/postgresql-2026-next-decade/)
+- 2026-08-14 · [当答案不再稀缺，DBA 真正稀缺的是什么？](https://xiongcc.cn/2026/08/14/what-dbas-need-when-answers-are-cheap/)
+- 2026-07-23 · [AI 时代首选数据库：PostgreSQL 入门到进阶实战](https://xiongcc.cn/2026/07/23/postgresql-ai-era-course/)
+- 2026-07-23 · [pg-slide-harvester：自动收集 PG 大会演讲资料](https://xiongcc.cn/2026/07/23/pg-slide-harvester/)
+- 2026-07-06 · [从数据库到后端底座：HigoBase 想讲一个什么新故事？](https://xiongcc.cn/2026/07/06/higobase-database-backend-platform/)
 <!-- BLOG-POST-LIST:END -->
 
 > 这个列表由 GitHub Actions 每天从 [xiongcc.cn](https://xiongcc.cn) 自动更新。
