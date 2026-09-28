@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import urllib.request
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -21,6 +22,82 @@ POST_PATTERN = re.compile(
     r'<time>(\d{4}/\d{2}/\d{2})</time>',
     re.DOTALL,
 )
+
+
+class BlogHomepageParser(HTMLParser):
+    """Extract posts from the current ``article.article-row`` layout."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.posts: list[tuple[str, str, str]] = []
+        self._article_depth = 0
+        self._in_heading = False
+        self._capture_title = False
+        self._capture_date = False
+        self._href = ""
+        self._title_parts: list[str] = []
+        self._date_parts: list[str] = []
+        self._date = ""
+
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
+        attributes = dict(attrs)
+        classes = set((attributes.get("class") or "").split())
+
+        if tag == "article" and "article-row" in classes:
+            self._article_depth = 1
+            self._href = ""
+            self._title_parts = []
+            self._date_parts = []
+            self._date = ""
+            return
+
+        if not self._article_depth:
+            return
+
+        if tag == "article":
+            self._article_depth += 1
+        elif tag == "h3":
+            self._in_heading = True
+        elif tag == "a" and self._in_heading and not self._href:
+            self._href = attributes.get("href") or ""
+            self._capture_title = bool(self._href)
+        elif tag == "time":
+            self._date = attributes.get("datetime") or ""
+            self._capture_date = True
+
+    def handle_data(self, data: str) -> None:
+        if self._capture_title:
+            self._title_parts.append(data)
+        if self._capture_date:
+            self._date_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if not self._article_depth:
+            return
+
+        if tag == "a" and self._capture_title:
+            self._capture_title = False
+        elif tag == "time":
+            self._capture_date = False
+        elif tag == "h3":
+            self._in_heading = False
+        elif tag == "article":
+            self._article_depth -= 1
+            if self._article_depth == 0:
+                title = " ".join("".join(self._title_parts).split())
+                date = self._date or "".join(self._date_parts).strip()
+                if self._href and title and date:
+                    self.posts.append((self._href, title, date))
+
+
+def normalize_date(value: str) -> str:
+    match = re.search(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})", value)
+    if not match:
+        return value.strip()
+    year, month, day = (int(part) for part in match.groups())
+    return f"{year:04d}-{month:02d}-{day:02d}"
 
 
 def fetch_homepage() -> str:
@@ -40,13 +117,24 @@ def latest_posts(page: str, limit: int = 5) -> list[str]:
     posts: list[str] = []
     seen: set[str] = set()
 
-    for href, raw_title, raw_date in POST_PATTERN.findall(page):
-        title = html.unescape(re.sub(r"<[^>]+>", "", raw_title)).strip()
+    parser = BlogHomepageParser()
+    parser.feed(page)
+    parsed_posts = parser.posts
+
+    # Keep compatibility with the previous homepage layout during deployments
+    # or rollbacks where the old markup may briefly be served.
+    if not parsed_posts:
+        parsed_posts = [
+            (href, html.unescape(re.sub(r"<[^>]+>", "", raw_title)).strip(), raw_date)
+            for href, raw_title, raw_date in POST_PATTERN.findall(page)
+        ]
+
+    for href, title, raw_date in parsed_posts:
         url = urljoin(BLOG_URL, html.unescape(href))
         if url in seen:
             continue
         seen.add(url)
-        posts.append(f"- {raw_date.replace('/', '-')} · [{title}]({url})")
+        posts.append(f"- {normalize_date(raw_date)} · [{title}]({url})")
         if len(posts) == limit:
             break
 

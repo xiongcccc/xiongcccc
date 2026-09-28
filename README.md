@@ -51,11 +51,11 @@ I focus on database internals, production practices, and data infrastructure in 
 ## ✍️ 最近写了
 
 <!-- BLOG-POST-LIST:START -->
+- 2026-09-24 · [重新学习，持续成长：市场工作的实践与思考](https://xiongcc.cn/2026/09/24/learning-and-growing-in-technical-marketing/)
 - 2026-09-07 · [PostgreSQL 的 2026 与下一个十年](https://xiongcc.cn/2026/09/07/postgresql-2026-next-decade/)
 - 2026-08-14 · [当答案不再稀缺，DBA 真正稀缺的是什么？](https://xiongcc.cn/2026/08/14/what-dbas-need-when-answers-are-cheap/)
-- 2026-07-23 · [AI 时代首选数据库：PostgreSQL 入门到进阶实战](https://xiongcc.cn/2026/07/23/postgresql-ai-era-course/)
 - 2026-07-23 · [pg-slide-harvester：自动收集 PG 大会演讲资料](https://xiongcc.cn/2026/07/23/pg-slide-harvester/)
-- 2026-07-06 · [从数据库到后端底座：HigoBase 想讲一个什么新故事？](https://xiongcc.cn/2026/07/06/higobase-database-backend-platform/)
+- 2026-07-23 · [AI 时代首选数据库：PostgreSQL 入门到进阶实战](https://xiongcc.cn/2026/07/23/postgresql-ai-era-course/)
 <!-- BLOG-POST-LIST:END -->
 
 > 这个列表由 GitHub Actions 每天从 [xiongcc.cn](https://xiongcc.cn) 自动更新。
